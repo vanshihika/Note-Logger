@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #525355;
+}
+.outline {
+  display: grid; 
+  margin: 50px;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill,256px);
+}
+.outline li {
+  background: #ffffff;
+  list-style: none;
+  height: 250px;
+  border-radius: 5px;
+  padding: 15px 20px 20px;
+  box-shadow: #000000;
+}
+.box, .plus-icon, .bottom {
+  display: flex; /*flexible*/
+  align-items: center;
+  justify-content: space-between;
+}
+a:link {
+  color: #090909;
+  text-decoration: none;
+}
+a:visited {
+  color: #090909;
+  text-decoration: none;
+}
+a:hover {
+  color: #090909;
+  text-decoration: none;
+}
+a:active {
+  color: #090909;
+  text-decoration: none;
+}
+.box {
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.box .plus-icon {
+  height: 80px;
+  width: 80px;
+  color: #090909;
+  font-size: 50px; /*size of the plus icon*/
+  border: 2px dotted #090909; /*This is for the dashed circle around the plus icon*/
+  border-radius: 30%; /*dashed border*/
+  justify-content: center;
+}
+.box a {
+  color: #090909;
+  margin-top: 15px;
+}
+.note p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.note-span {
+  display: block;
+  margin-top: 5px;
+  color:rgb(25, 100, 165); /*WHAT IS THIS FUCKING FOR?*/
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.note .bottom {
+  border-top: 1px solid;
+  padding-top: 10px;
+}
+
